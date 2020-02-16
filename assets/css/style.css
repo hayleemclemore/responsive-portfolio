@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/dot-grid.png");
 }
 
 * {
@@ -65,7 +65,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 375px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -149,7 +149,7 @@ h3, h2 {
 }
 
 .work img {
-  width: 100%;
+  width: 274px;
   border: 0 none;
   opacity: 0.8;
 }
@@ -251,6 +251,10 @@ input[type=submit] {
     padding-top: 0;
   }
 
+  h1 {
+    text-align:center;
+  }
+
   ul {
     padding-left:0;
   }
@@ -260,4 +264,12 @@ input[type=submit] {
     
   }
 
+  .work {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .work img {
+    width: 100%;
+  }
 }
