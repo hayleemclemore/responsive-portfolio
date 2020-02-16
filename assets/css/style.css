@@ -264,6 +264,12 @@ input[type=submit] {
     
   }
 
+
+  .auth-image {
+    width: 100%;
+    margin-bottom: 30px;
+  } 
+
   .work {
     width: 100%;
     height: auto;
